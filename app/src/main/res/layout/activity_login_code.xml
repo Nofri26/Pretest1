@@ -83,6 +83,7 @@
         android:gravity="center"
         android:ems="10"
         android:hint="Masukan Kode Keluarga"
+        android:inputType="textCapCharacters"
         android:fontFamily="@font/nunito_bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -29,7 +29,7 @@
         android:hint="Contoh : Budi"
         android:paddingBottom="25dp"
         android:textSize="18dp"
-        android:inputType="textCapCharacters"
+        android:inputType="textCapWords"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/namatxt" />
@@ -56,11 +56,13 @@
         android:paddingBottom="25dp"
         android:hint="Contoh : 12"
         android:textSize="18dp"
+        android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/umurtxt" />
 
     <Button
+        android:id="@+id/selanjutnya"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="50dp"

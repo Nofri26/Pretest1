@@ -10,7 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Biodata"></activity>
+        <activity android:name=".Sayhi"></activity>
+        <activity android:name=".SayHi" />
+        <activity android:name=".Biodata" />
         <activity android:name=".LoginCode" />
         <activity android:name=".MainActivity">
             <intent-filter>
